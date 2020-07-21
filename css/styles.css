@@ -56,12 +56,12 @@ body {
 
 .idems_logo {
     width: 140px;
-    height: 90px;
+    height: 60px;
 }
 
 .aims_ghana {
-    width: 140px;
-    height: 90px;
+    width: 180px;
+    height: 60px;
 }
 
 .ami_ghana {
@@ -70,6 +70,11 @@ body {
 }
 
 .pan_african_hub {
+    width: 140px;
+    height:140px;
+}
+
+.togo_logo {
     width: 140px;
     height: 90px;
 }
