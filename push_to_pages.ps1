@@ -13,4 +13,4 @@ git config user.name idems-bot1
 git config user.email git.bot@idems.international
 git add .
 git commit -m "Update with latest angular build"
-git push
+git status
