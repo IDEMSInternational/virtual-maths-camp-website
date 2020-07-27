@@ -184,6 +184,12 @@ body {
 
 
 
+
+
+
+
+
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
@@ -209,32 +215,5 @@ body {
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: #4CAF50;
-  color: white;
-}
-
-
-
-
-
-
- /* Style all font awesome icons */
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-}
-
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
-
-/* Set a specific color for each brand */
-
-/* Youtube */
-.fa-youtube {
-  background: #bb0000;
   color: white;
 }
