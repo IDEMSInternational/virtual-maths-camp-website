@@ -5,8 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build-pages": "npm run build && push_to_pages.sh",
-    "build-pages-win": "npm run build && push_to_pages.bat",
+    "build-pages": "npm run build && ./push_to_pages.sh",
+    "build-pages-win": "npm run build && powershell ./push_to_pages.ps1",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
