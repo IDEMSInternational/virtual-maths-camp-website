@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { FundraisingComponent } from './fundraising/fundraising.component';
+import { CardsComponent } from './cards/cards.component';
+import { ChatbotComponent } from './chatbot/chatbot.component';
 
 
 const routes: Routes = [
@@ -13,7 +15,16 @@ const routes: Routes = [
     path: "fundraising",
     component: FundraisingComponent
   },
-  { path: '**',
+  {
+    path: "cards",
+    component: CardsComponent
+  },
+  {
+    path: "chatbot",
+    component: ChatbotComponent
+  },
+  {
+    path: '**',
     redirectTo: ''
   }
 ];
