@@ -126,6 +126,7 @@ body header .math-guy {
 }
 
 body header .math-guy img {
+  min-width: 233px;
   max-width: 447px;
   width: 100%;
   height: auto;
@@ -476,21 +477,50 @@ body a {
     display: none !important;
     width: 100%;
   }
+  header {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
   header .math-guy {
-    width: 0% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80% !important;
+  }
+  header .math-guy .math-guy-image {
+    max-width: 268px !important;
   }
   header .title {
     width: 100% !important;
   }
   header .title .texts {
     margin-left: 0 !important;
+    width: calc(100% - 10px) !important;
+  }
+  header .title .home-texts {
+    margin-left: 16vw !important;
+  }
+  header .title .description {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   header .title p {
-    width: 390px !important;
-    max-width: 100% !important;
+    max-width: 325px !important;
+    width: 100% !important;
+    padding-left: 10px !important;
   }
   header .animationObject {
     display: none !important;
+  }
+  header .onlineClass {
+    display: none;
+  }
+  .info-1 p {
+    width: 90% !important;
   }
   .info-2 {
     flex-direction: column;
@@ -501,6 +531,9 @@ body a {
   }
   .info-3 {
     flex-direction: column-reverse;
+  }
+  .info-3 .texts {
+    padding-left: 0 !important;
   }
   .info-3 div {
     width: 95% !important;

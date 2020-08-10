@@ -1,0 +1,16 @@
+header .title p {
+    width: 750px !important;
+    max-width: 100% !important;
+}
+@media (max-width: 500px) {
+ 
+    
+   
+    .texts{
+    
+        margin-left: 0 !important;
+        
+       
+    }
+  
+}

@@ -119,7 +119,9 @@ body{
         width: 100%;
         .math-guy{
             width: 35%;
+
             img{
+                min-width: 233px;
                 max-width: 447px;
                 width:100%;
                 height: auto;
@@ -479,25 +481,61 @@ body{
       }
     }
     header{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+
         .math-guy{
-            width: 0% !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80% !important;
+            .math-guy-image{
+                max-width: 268px !important;
+            }
         }
         .title{
             width: 100% !important;
+            
+           
             .texts{
+            
                 margin-left: 0 !important;
+                width: calc(100% - 10px) !important;
+               
+            }
+            .home-texts{
+                margin-left: 16vw !important;
+            }
+            .description{
+                width:100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
             }
             p{
-                width:390px !important ;
-                max-width: 100% !important;
+                max-width:325px !important ;
+                width: 100% !important;
+                padding-left: 10px !important;
             }
+            
         }
 
         .animationObject{
             display: none !important;
         }
+        .onlineClass{
+            display: none;
+        }
         
 
+    }
+    .info-1{
+        p{
+            width: 90% !important;
+        }
     }
     .info-2{
         div{
@@ -508,6 +546,9 @@ body{
         align-items: center;
     }
     .info-3{
+        .texts{
+            padding-left: 0 !important;
+        }
         div{
             width: 95% !important;
         }
