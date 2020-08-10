@@ -4,13 +4,14 @@ $secondary-color:#FF8400;
 $bluish-color:#37468E;
 $greenish-color:#008081;
 
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'EB Garamond', serif;
-}
+    font-family: 'Nanum Myeongjo', serif;
+   
 
 h1{
                 
@@ -245,7 +246,7 @@ body{
                 width: 50%;
                 p{
                    
-                    width: 100%;
+                    width: 95%;
 
                 }
                 button{
@@ -342,7 +343,7 @@ body{
                     align-items: center;
                     justify-content: center;
                     padding: 0 10px;
-                    margin: 5px;
+                    margin-left: 6px;
                     cursor: pointer;
                     background-color:  #33383b;
                     border-radius: 2px;
@@ -355,7 +356,9 @@ body{
                 display: flex;
                 flex-wrap: wrap;
                 font-size: 1rem;
-                justify-content: space-between;
+                margin-top: 10px;
+                justify-content: center;
+
             }
             .footer-company-name{
                 color:  #8f9296;
