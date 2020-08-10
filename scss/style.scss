@@ -119,7 +119,9 @@ body{
         width: 100%;
         .math-guy{
             width: 35%;
+
             img{
+                min-width: 233px;
                 max-width: 447px;
                 width:100%;
                 height: auto;
@@ -323,7 +325,7 @@ body{
         margin-top: 80px;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
         
         .footer-left{
             
@@ -333,6 +335,22 @@ body{
             flex-direction: column;
             flex-wrap: wrap;
             .footer-links{
+                a{
+
+
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 0 10px;
+                    margin: 5px;
+                    cursor: pointer;
+                    background-color:  #33383b;
+                    border-radius: 2px;
+                
+                    font-size: 1rem;
+                    color: #ffffff;
+                    line-height: 35px;
+                }
                 width: 100%;
                 display: flex;
                 flex-wrap: wrap;
@@ -422,7 +440,10 @@ body{
                 margin-top: 25px;
                 a{
 
-                    display: inline-block;
+
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
                     width: 35px;
                     height: 35px;
                     cursor: pointer;
@@ -479,25 +500,61 @@ body{
       }
     }
     header{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+
         .math-guy{
-            width: 0% !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80% !important;
+            .math-guy-image{
+                max-width: 268px !important;
+            }
         }
         .title{
             width: 100% !important;
+            
+           
             .texts{
+            
                 margin-left: 0 !important;
+                width: calc(100% - 10px) !important;
+               
+            }
+            .home-texts{
+                margin-left: 16vw !important;
+            }
+            .description{
+                width:100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
             }
             p{
-                width:390px !important ;
-                max-width: 100% !important;
+                max-width:325px !important ;
+                width: 100% !important;
+                padding-left: 10px !important;
             }
+            
         }
 
         .animationObject{
             display: none !important;
         }
+        .onlineClass{
+            display: none;
+        }
         
 
+    }
+    .info-1{
+        p{
+            width: 90% !important;
+        }
     }
     .info-2{
         div{
@@ -508,10 +565,19 @@ body{
         align-items: center;
     }
     .info-3{
+        .texts{
+            padding-left: 0 !important;
+        }
         div{
             width: 95% !important;
         }
         flex-direction: column-reverse;
+    }
+    footer{
+        justify-content: center !important;
+        div{
+            margin-bottom: 15px;
+        }
     }
 }
   
