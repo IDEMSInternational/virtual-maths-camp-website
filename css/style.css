@@ -2,10 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'EB Garamond', serif;
 }
 
 h1 {
-  font-family: 'EB Garamond', serif;
   font-size: 1.5rem;
   line-height: 53px;
   display: flex;
@@ -13,7 +13,7 @@ h1 {
   color: #FF8400;
 }
 
-@media (min-width: 1365px) {
+@media (min-width: 1000px) {
   h1 {
     font-size: 48px;
   }
@@ -26,7 +26,7 @@ p {
   line-height: 30px;
 }
 
-@media (min-width: 1365px) {
+@media (min-width: 1000px) {
   p {
     font-size: 24px;
   }
@@ -34,7 +34,6 @@ p {
 
 body {
   background-color: #333;
-  font-family: 'EB Garamond', serif;
 }
 
 body .nav-bar {
@@ -71,17 +70,15 @@ body .nav-bar nav ul li {
   list-style-type: none;
   height: 3vw;
   background-color: #008081;
-  padding: .5vw 2vw;
   margin-left: 1.2vw;
   justify-content: center;
   display: flex;
   align-items: center;
 }
 
-@media (min-width: 1365px) {
+@media (min-width: 1000px) {
   body .nav-bar nav ul li {
     height: 50px;
-    padding: 5px 35px;
     margin-left: 25px;
   }
 }
@@ -89,25 +86,34 @@ body .nav-bar nav ul li {
 @media (max-width: 860px) {
   body .nav-bar nav ul li {
     height: 25px;
-    padding: 4px 17.242px;
   }
 }
 
 body .nav-bar nav ul li a {
   font-size: 1.2vw;
   text-align: center;
+  padding: .5vw 2vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 @media (max-width: 860px) {
   body .nav-bar nav ul li a {
     font-size: 11px;
+    padding: 4px 17.242px;
   }
 }
 
-@media (min-width: 1365px) {
+@media (min-width: 1000px) {
   body .nav-bar nav ul li a {
+    padding: 5px 35px;
     font-size: 16.302px;
   }
+}
+
+body .nav-bar nav ul .active {
+  background-color: #FF8400;
 }
 
 body header {
@@ -125,7 +131,7 @@ body header .math-guy img {
   height: auto;
 }
 
-@media (min-width: 1365px) {
+@media (min-width: 1000px) {
   body header .math-guy img {
     width: 100%;
     max-width: 100%;
@@ -150,31 +156,21 @@ body header .title .onlineClass {
   z-index: -1;
 }
 
-@media (min-width: 1365px) {
+@media (min-width: 1000px) {
   body header .title .onlineClass {
     max-width: none;
   }
 }
 
 body header .title .texts {
-  width: 50%;
+  margin-left: 100px;
+  width: calc(100% - 100px);
 }
 
 body header .title p {
-  color: white;
   width: 340px;
   max-width: 40vw;
-  font-family: 'EB Garamond', serif;
-  font-style: normal;
-  font-weight: normal;
   padding-left: 35px;
-  line-height: 30px;
-}
-
-@media (min-width: 1365px) {
-  body header .title p {
-    font-size: 24px;
-  }
 }
 
 body header .animationObject {
@@ -237,7 +233,6 @@ body main .info-2 .slideshow-container {
 
 body main .info-2 img {
   width: calc(100% - 10px);
-  max-width: 800px;
   height: auto;
   margin: 10px;
   box-shadow: 13px 11px 4px rgba(0, 0, 0, 0.25);
@@ -253,8 +248,7 @@ body main .info-2 .text {
 }
 
 body main .info-2 .text p {
-  width: 476px;
-  max-width: 100%;
+  width: 100%;
 }
 
 body main .info-2 .text button {
@@ -488,9 +482,15 @@ body a {
   header .title {
     width: 100% !important;
   }
+  header .title .texts {
+    margin-left: 0 !important;
+  }
   header .title p {
     width: 390px !important;
     max-width: 100% !important;
+  }
+  header .animationObject {
+    display: none !important;
   }
   .info-2 {
     flex-direction: column;

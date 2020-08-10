@@ -9,30 +9,27 @@ $greenish-color:#008081;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
 }
 
 h1{
                 
 
-    font-family: 'EB Garamond', serif;
+    
     font-size: 1.5rem;
-    @media (min-width:1365px){   
+    @media (min-width:1000px){   
         font-size: 48px;
     }
     line-height: 53px;
     display: flex;
-    // // align-items: center;
-    // text-align: center;
     text-transform: capitalize;
-
     color: $secondary-color;
 }
 p{
     width: 60%;
-    color: $text-color;
-    
+    color: $text-color;   
     font-size: 1rem;
-    @media (min-width:1365px){   
+    @media (min-width:1000px){   
         font-size: 24px;
     }
     line-height: 30px;
@@ -40,7 +37,7 @@ p{
 
 body{
     background-color: $primary-color;
-    font-family: 'EB Garamond', serif;
+   
     .nav-bar{
         
         width: 100%;
@@ -73,36 +70,46 @@ body{
                     list-style-type: none;
                     height: 3vw;
                     background-color: $greenish-color;
-                    padding: .5vw 2vw;
+                    
                     margin-left: 1.2vw;
                     justify-content: center;
                     display: flex;
                     align-items: center;
-                    @media (min-width:1365px){
+                    @media (min-width:1000px){
                         
                         height: 50px;
-                        padding: 5px 35px;
+                        
                         margin-left: 25px;
                     }
                     @media (max-width:860px) {
                         height: 25px;
-                        padding: 4px 17.242px;                       
+                                        
                     }
+
+                    
                                     
                     a{
                         // make this responsive uniits
                         font-size: 1.2vw;
                         text-align: center;
+                        padding: .5vw 2vw;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
                         @media (max-width:860px){
                             font-size: 11px;
+                            padding: 4px 17.242px;       
                         }
-                        @media (min-width:1365px){
-                        
+                        @media (min-width:1000px){
+                            padding: 5px 35px;
                             font-size: 16.302px;
                         }
                     }
 
                     
+                }
+                .active{
+                    background-color: $secondary-color;
                 }
             }
         }
@@ -117,7 +124,7 @@ body{
                 width:100%;
                 height: auto;
 
-                @media (min-width:1365px){
+                @media (min-width:1000px){
                         
                     width: 100%;
                     max-width: 100%;
@@ -139,28 +146,23 @@ body{
                 width:35vw;
                 max-width: 574px;
                 z-index: -1;
-                @media (min-width:1365px){
+                @media (min-width:1000px){
                     max-width: none;
                 }
                
             }
             .texts{
-                width: 50%;
+                margin-left: 100px;
+                width: calc(100% - 100px);
             }
             
             p{
-                color: $text-color;
+                
                 width: 340px;
                 max-width: 40vw;
-                font-family: 'EB Garamond', serif;
-                font-style: normal;
-                font-weight: normal;
-                @media (min-width:1365px){   
-                    font-size: 24px;
-                }
+                
                 padding-left: 35px;
-                // font-size: 2vw;
-                line-height: 30px;
+                
             }
             
         }
@@ -225,7 +227,7 @@ body{
             }
             img{
                 width: calc(100% - 10px);
-                max-width: 800px;
+                
                 height: auto;
                 margin: 10px;     
                 box-shadow: 13px 11px 4px rgba(0, 0, 0, 0.25);                           
@@ -240,8 +242,8 @@ body{
                 align-items: center;
                 width: 50%;
                 p{
-                    width: 476px;
-                    max-width: 100%;
+                   
+                    width: 100%;
 
                 }
                 button{
@@ -482,10 +484,17 @@ body{
         }
         .title{
             width: 100% !important;
+            .texts{
+                margin-left: 0 !important;
+            }
             p{
                 width:390px !important ;
                 max-width: 100% !important;
             }
+        }
+
+        .animationObject{
+            display: none !important;
         }
         
 
