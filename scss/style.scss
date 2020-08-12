@@ -306,10 +306,11 @@ body{
             margin-top: 10px;
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: space-evenly;
             width: 100%;
             padding: 0 10px;
             a{
+                margin: 4px;
                 img{
                     width: 100px;
                 }
@@ -524,7 +525,7 @@ body{
             .texts{
             
                 margin-left: 0 !important;
-                width: calc(100% - 10px) !important;
+               
                
             }
             .home-texts{
@@ -580,7 +581,8 @@ body{
         justify-content: center !important;
         div{
             margin-bottom: 15px;
+            max-width: 100%;
         }
     }
 }
-  
+}
