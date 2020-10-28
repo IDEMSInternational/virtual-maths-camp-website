@@ -1,0 +1,123 @@
+
+00:00
+okay hi everyone and welcome to a session of topology
+topology is my favorite branch of mathematics and it studies
+the fundamental properties of shapes for this session you will need
+a pair of scissors a pen tape and several strips of paper let's play a
+very simple experiment we take our first strip of paper we fold it
+00:01
+like this as a little cylinder and then i will put tape to keep it together
+i fold the strip like this and I use the tape to keep it together
+now I take the pen and I draw in the middle of the cylinder
+I take my pair of scissors i fold it a little bit
+i cut here in the middle so i can start to cut through the entire line
+please stop the video now and try yourself and see what you get out of it
+i'm almost at the end of it i just have to cut the very last bit
+and when i finish cutting what i got is two separate strips of paper
+00:02
+so far nothing weird, but let's go for our second experiment
+i take another strip of paper and this time
+i do something unusual i take my strip of paper
+i fold it like so like before but instead of gluing it like that
+i take one of the two and i twist it like so and now i put the tape
+oh i already noticed something weird i started on this side and now i'm on
+00:03
+the other side, why does that happen? please stop the video now and try yourself
+i'm almost at the end i just need to cut the very last bit and when i do so
+i get not two but one strip of paper which is folded
+please stop the video now and discuss together
+why does this happen and also how many times is the resulting strip twisted with
+itself? if you want to count the twists you can cut
+the strip and keep the two sides and then slowly you
+twist the strip once at a time and you count once twice three times
+00:04
+you count how many times you need to do it in order to get
+a proper cylinder. four times. after i fold it four times i get
+a cylinder. okay something weird happened. let us continue
+our investigation, our topological investigation.
+i twist once my strip of paper like before and i tape it like that
+however this time when i take my pen i don't want to draw a line in the
+middle but i want to draw a line at one third of the distance from the boundary
+okay this is the result i started from the third and then i just
+kept following the strip until the end now i start from any point i give it a
+00:05
+small cut like that i can insert the scissors and i cut until the end
+this time it will be longer because one round won't be enough i'll have to do it
+twice please stop the video now and try yourself and see what you get
+i'm almost at the end of it i just cut the last bit and this is what i get
+i get two strips but they are linked how comes please stop the video now
+and discuss together why this happens and also can you figure out how many
+twists does each strip of paper have?
+Let's try another experiment this time i
+00:06
+make my cylinder i want to twist once but i also want to twist a second time
+and glue it with the paint with the tape like so
+and then i'm going to draw with my pen align in the middle of it and capture it
+please stop the video now and see what you get
+i'm almost at the end i give it the last cut and this is what i get i get again
+two linked strips and each of them again is twisted
+the last experiment that you can do with Moebius strips like that
+is again take a strip give it two twists and then draw at the third of the
+00:07
+boundary and cut through it and see if you get something
+different or if you get the same okay now we have played with
+strips and this kind of twisted strips are called
+Moebius strips after the mathematician who first studied them
+now we are going to place that with Moebius crosses
+we're going to need two strips of paper and i'm going to put them like so
+as a symmetric cross and then i'm going to put the tape
+diagonally like so and i'm going to fold the rest of the tape
+on the other side like that and then with another piece of tape i'm going to
+00:08
+do the same on the other diagonal and here i obtain a cross
+each group of students will need four crosses like that
+so how do we play with Moebius crosses it's a little bit like playing with
+Moebius strips every time that you have two strips that
+come together you can choose to glue them in the usual way like a
+cylinder or to give them a twist and that's why we have four
+possibilities and four crosses the first possibility is to glue them in
+the normal way the first pair and the second pair as well
+the second possibility is to fold one pair in the normal way and the other pair
+in the Moebius way with one twist the third possibility is to fold both pairs
+in the Moebius way with one twist but in the same direction
+and the last cross we take the first pair and we twist it in one direction
+00:09
+and in the the other pair we fold it in the opposite direction
+let me do the first cross i take the first pair and i glue it without any twist
+i take the second pair and i also glue it without any twist
+ok let me do the second cross now the first pair i glue
+in a usual way and the second pair i give it a twist
+let me do the third cross the first pair i want to twist it clockwise
+and the second pair i'm also going to twist it clockwise
+00:10
+i will do now the last cross the first pair i want to glue it clockwise like so
+now the last pair i will glue it counterclockwise
+okay now we have our four crosses folded and for each of them i want to do
+something very easy i take the scissors and i cut through half of
+each of the two strips so i start from at any point
+and i cut through the middle of the first strip
+of the cross and after i am done i start with the other one and i cut so
+for each of the four crosses let us try together
+for the first cross the one in which we glued both pairs
+00:11
+in the usual way i start from any point after i finish cutting the first
+strip i want to cut through the other one and what i get it's a frame
+please stop the video now and try yourself in groups
+with all the four crosses and see what you get out of it
+here we are with the solutions so from the first cross the one in which
+each pair was glued in the normal way what i got out of it
+was this just a regular frame from the second one in which we only
+00:12
+twisted one of the two i also got the same how does this happen? we twisted
+it once but it made no difference! from the other two
+in one of the two cases i got the one in which we twisted in the same direction
+we got two untwisted pairs like frames but now they only have two edges
+instead of four sorry one is untwisted and the other one
+is actually twisted and for the last case in which we
+twisted the strips in the opposite direction we actually got two little hearts
+linked together isn't it romantic?? a part of topology deals with
+mathematical explanations and proofs about why this happens
+and also deals with more complicated objects
+00:13
+which lead in spaces that are more than three dimensions
+okay this was it i hope you enjoyed and enjoy the rest of your Virtual MathCamp! ciao!

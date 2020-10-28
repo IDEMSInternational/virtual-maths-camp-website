@@ -1,0 +1,38 @@
+Hi everybody! Welcome! My name is Edoardo and you are welcome to this session of conditional probability and magic.
+For this session you will need four cards (pieces of paper, like this) with one side left blank and the other one coloured of one color, and you should color two cards with one color and the other two cards with another color. The you need one pen and one sheet of paper in order to take some notes.
+Ok, so I have prepared my four cards. Now I shuffle them, and I ask you: what color is on the other side of this card? For you this is a difficult question: this card can be any color. It can be yellow, green, blue, red, black... For me it is a little bit easier, because I made these cards and I know that I coloured them either blue or red. For example I already know that this card cannot be yellow, or green, or black. This is a central point of conditional probability: it allows you to guess on something based on some prior knowledge on the problem that you are facing at that point. Conditional probability is everywhere, and we use it every time we have hints on something we have to guess. In order to realise this, let's play a very simple and fun game.
+
+The facilitator will think about one of you learners, and each group of two learners in the classroom will try to guess which learner is the facilitator thinking about. Each group will write this guess on their sheet of paper.
+Then, the facilitator will give you three hints about the learner he or she is thinking about. After having heard these three hints - it can be for example whether the learner is wearing a shirt of a certain color, or if the learner is tall or short, male or female, something like that - after having heard these hints, each group has to guess again.
+Finally, the facilitator collects on the board all of your guesses before the hints and all of your guesses after the hints, and you will count how many right guesses before the facilitator gave the hints and after the facilitator gave the hints.
+Probably, the number of right guesses was much higher after having given the hints than before. Why?
+Well, the first time you were trying to guess which learner was it out of the whole classroom, whereas the second time you had for example these two guesses: the learner was male, and he was tall. So you were choosing at random out of a subset of the classroom, which was much smaller of the classroom itself. In mathematical terms, the first time you were trying to estimate the probability that the facilitator had in mind one learner, while the second time you were trying to estimate the probability that the facilitator had in mind one learner given that the learner was male and tall. This is how a conditional probability is written in mathematics.
+
+Let's play a second game: out of your four cards, choose two of one color - for us it will be blue - and one of the other color - for us, it will be red - and play with your partner.
+One partner will place the three cards covered in whatever order he wants, while the other partner covers his eyes. I show you the cards and I put them here. Then the partner uncovers his eyes, and you make him guess where the red card is. 
+“I have no idea, I would say this one”
+Now, you know which is the red card, and in order to give him a hint you uncover one of the blue cards - there will be always one blue card to uncover - for example this one. And now you ask to your partner: 
+“Would you like to change your guess now that you know that this is a blue card?”
+“Yes, why not, I would like to change. I pick this one now”
+“Wonderful”
+Take a sheet of paper and write whether the partner has changed his mind or not, and whether the partner has guessed right.  In this case, no: he didn't guess write. Actually, he was right the first time.
+Make a table like this with four cases. Here, you write "has changed mind" and "hansn't changed mind", and on this side "has won", "has lost". Each time you play this game you make a cross corresponding to the two conditions that were true. In the example that we have shown, my partner has changed his mind and has lost, so there will be a cross here.
+
+Let's play again: now, my partner will choose one of the three cards. 
+“I choose this one”
+“Great!” 
+And I, who know where the two blue cards are, will uncover one of the two blue cards. 
+"Now, do you want to change your guess or not?" 
+"I don't" 
+"Great, so you will stay with this card. Let's see" 
+"Oh no, it's blue!" 
+"Yeah" 
+So, again, my partner didn't have any luck. We will put a cross on "Hasn't changed his mind" and "has lost".
+
+Now, each of you choose a partner and play this game ten times each. Stop the video now and try.
+Now that you have done it, collect all your data together, and make a super-table just like the one we had here, with all the crosses from all the groups in the classroom. Count them and discuss: which of the four cases has the most crosses? And in your opinion, why?
+
+It is once again a matter of how much information you have. The second time, even if no one has told you anything about your choice, you have more information on the problem itself. So, if the first time that you guess you were guessing at random over three cards, the second time - if you guess again! - you are guessing on a set of two cards. And this is exactly equal to the first case we saw during this lesson.
+
+So we have seen that conditional probability tells you that having more information helps us making more educated guesses on the problem we have.
+Thank you for joining us for these session, and I hope you'll enjoy the rest of your math camp. Ciao!
