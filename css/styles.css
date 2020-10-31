@@ -62,6 +62,10 @@ body {
     height: 90px;
 }
 
+.bdu_Ethiopia {
+  height: 120px;
+}
+
 .idems-logo {
     height: 60px;
 }
@@ -69,7 +73,6 @@ body {
 .aims-ghana {
     height: 80px;
 }
-
 
 .togo-logo {
     height: 60px;
@@ -81,10 +84,6 @@ body {
 
 .hausdorff {
   height: 60px;
-}
-
-.bdu_Ethiopia {
-  height: 90px;
 }
 
 .innodems {
