@@ -80,11 +80,10 @@
 
     <h3>How to help build chatbot flows:</h3>
     <p>
-      RapidPro is an Open Source platform to build interactive messaging systems launched by UNICEF in 2014. At the core of RapidPro are the messaging “flows”, flowcharts that can be built using an easy visual interface and that define how users interact with the system. Each “node” in the flow represents an interaction and by drawing arrows from one node to another, one defines how users will move through the flow based on their responses. Here is how the flow that handles the interaction with the users after they type “mathscamp” in the chatbot looks like:
+      RapidPro is an Open Source platform to build interactive messaging systems launched by UNICEF in 2014. At the core of RapidPro are the messaging “flows”, flowcharts that can be built using an easy visual interface and that define how users interact with the system. Each “node” in the flow represents an interaction and by drawing arrows from one node to another, one defines how users will move through the flow based on their responses. Here is how the flow that handles the interaction with the users after they type “mathscamp” in the chatbot looks like:</p>
 
       <img style="max-height:600px" src="images/chatbot/flow_demo.PNG"/>
-    </p>
-
+    
     <p>
       Creating RapidPro flows through the graphical interface is easy to learn and no technical experience is needed to support this aspect of building the chatbot.
     </p>
@@ -92,9 +91,10 @@
     <h3>How to help build RapidPro pipelines:</h3>
     <p>
       With the aim of having a one-to-one correspondence of the content in the chatbot, card deck and website we also went beyond the visual interface and had a look at what happens under the hood in RapidPro. In the backend, flows are represented in a JSON format, where the logic given by the arrows is stored using unique IDs that identify each node as well as each of its exits.
+      </p>
 
       <img style="max-height:600px" src="images/chatbot/json.PNG"/>
-    </p>
+    
 
     <p>
       We therefore created a pipeline that, starting from a common google doc containing the conceptualisation of an activity (puzzle, game of fun fact), is able to convert its content into a format that can be ingested into the chatbot, card deck or website on demand. In the case of the chatbot, the pipeline is able to generate the JSON representing a flow, which can then be imported to RapidPro.
