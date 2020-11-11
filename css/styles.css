@@ -225,3 +225,18 @@ body {
   background-color: #4CAF50;
   color: white;
 }
+
+==========/*Tag for the videos*/============================================
+.video-container {
+  display: grid;
+  width: 50%;
+  float:left;
+  /*grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-auto-flow: column;*/
+}
+.video-container iframe{ /*change according to your need*/
+  /*min-width: 100%;
+  min-height: 100%;*/
+  width: 50%;
+  float:left;
+}
