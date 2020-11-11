@@ -229,6 +229,8 @@ body {
 ==========/*Tag for the videos*/============================================
 .video-container {
   display: grid;
+  width: 50%;
+  float:left;
   /*grid-template-columns: 33.3% 33.3% 33.3%;
   grid-auto-flow: column;*/
 }
