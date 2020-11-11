@@ -276,6 +276,7 @@ body {
 ======================
 ============add social media icons==============
 body {margin:0;height:2000px;}
+
 .icon-bar {
   position: fixed;
   top: 50%;
@@ -324,5 +325,4 @@ body {margin:0;height:2000px;}
 
 .content {
   margin-left: 75px;
-  font-size: 30px;
 }
