@@ -31,11 +31,11 @@
     <h2>Chatbot</h2>
 
     <p> 
-      The <a href="https://web.telegram.org/#/im?p=@Virtual_Mathscamp_bot" target="_blank"><b>Virtual Maths Camp (VMC) Chatbot</b></a> is an automated messaging system designed through <a href="https://rapidpro.io/" target="_blank"><b>RapidPro</b></a>, which provides a range of puzzles, activities, games, and interesting Maths facts.
+      The <a href="https://web.telegram.org/#/im?p=@Virtual_Mathscamp_bot" target="_blank"><b>Virtual Maths Camp (VMC) Chatbot</b></a> is an automated messaging system designed through <a href="https://rapidpro.io/" target="_blank"><b>RapidPro</b></a>, which provides a range of puzzles, games, and interesting Maths facts.
     </p>
 
     <p>
-      We are creating a chatbot that can be accessed in multiple  platforms such as telegram, whatsapp and Facebook Messenger. Currently the bot can be accessed on Telegram, further platform implementations are in development.
+      We are creating a chatbot that can be accessed in multiple  platforms such as telegram, whatsapp and Facebook Messenger. Currently the bot can be accessed on Telegram, further platform implementations are in development.Interactive activities within the platform will also be intergrated in the future.
     </p>
 
     <h3>How to access the VMC Chatbot:</h3>
@@ -61,9 +61,6 @@
               <li>
                 Games: instructions on how to play, so that users can do it on their own
               </li>
-              <li>
-              Activities: guidelines for running sessions during mathscamps
-            </li>
           </ul>
         </li>
         <li>
@@ -82,7 +79,7 @@
     <p>
       RapidPro is an Open Source platform to build interactive messaging systems launched by UNICEF in 2014. At the core of RapidPro are the messaging “flows”, flowcharts that can be built using an easy visual interface and that define how users interact with the system. Each “node” in the flow represents an interaction and by drawing arrows from one node to another, one defines how users will move through the flow based on their responses. Here is how the flow that handles the interaction with the users after they type “mathscamp” in the chatbot looks like:</p>
 
-      <img style="max-height:600px" src="images/chatbot/flow_demo.PNG"/>
+      <img style="max-height:800px" src="images/chatbot/flow_demo.PNG"/>
     
     <p>
       Creating RapidPro flows through the graphical interface is easy to learn and no technical experience is needed to support this aspect of building the chatbot.
@@ -93,7 +90,7 @@
       With the aim of having a one-to-one correspondence of the content in the chatbot, card deck and website we also went beyond the visual interface and had a look at what happens under the hood in RapidPro. In the backend, flows are represented in a JSON format, where the logic given by the arrows is stored using unique IDs that identify each node as well as each of its exits.
       </p>
 
-      <img style="max-height:500px" src="images/chatbot/json.png" />
+      <img style="max-height:800px" src="images/chatbot/json_script.PNG" />
 
     <p>
       We therefore created a pipeline that, starting from a common google doc containing the conceptualisation of an activity (puzzle, game of fun fact), is able to convert its content into a format that can be ingested into the chatbot, card deck or website on demand. In the case of the chatbot, the pipeline is able to generate the JSON representing a flow, which can then be imported to RapidPro.
