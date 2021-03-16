@@ -26,7 +26,7 @@ if (!fs.existsSync("card")) {
 }
 
 for (let cardId of cardIds) {
-    let url = "https://cards.virtualmathscamp.com/" + cardId;
+    let url = "https://cards.virtualmathscamp.com/card/" + cardId;
     const html = `<html>
     <head>
         <meta http-equiv="refresh" content="0; url=${url}" />
