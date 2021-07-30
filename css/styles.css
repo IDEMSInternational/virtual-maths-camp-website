@@ -104,8 +104,8 @@ body {
 .lilita_1 {
   float: centre;
   border-radius: 8px;
-  width:60%;
-  height:60%;
+  max-width: 500px;
+  max-height: 500px;
 }
 
 .lilita_2 {
