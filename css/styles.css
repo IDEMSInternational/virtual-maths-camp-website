@@ -110,11 +110,10 @@ body {
   border-radius: 8px;
   width: 50%;
   height:50%;
-  p {
-      text-align: justify;
-      font-size: 25px;
-    }
 }
+p {
+      text-align: justify;
+    }
 
 * {box-sizing:border-box}
 
