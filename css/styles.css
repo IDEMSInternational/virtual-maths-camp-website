@@ -100,7 +100,7 @@ body {
   height: 200px;
 }
 
-/*bios returning of returning students */
+/*===============bios returning of returning students===============================*/
 .lilita_1 {
   float: centre;
   border-radius: 8px;
@@ -117,8 +117,7 @@ body {
 p {
       text-align: justify;
     }
-/*lilita header image with transparent text*/
-
+/*==========lilita header image with transparent text=======================*/
 .lilita_container {
   position: relative;
   max-width: 800px;
@@ -136,7 +135,28 @@ p {
   padding: 20px;
 }
 
-/* Slideshow container */
+/*==============Add images for blogging page========================*/
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* ===============Slideshow container================================ */
 .slideshow-container {
   max-width: 1000px;
   max-height: 700px;
