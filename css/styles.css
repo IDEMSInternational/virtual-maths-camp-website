@@ -98,6 +98,15 @@ body {
   height: 200px;
 }
 
+/*bios returning of returning students */
+.lilita_2 {
+  float: right;
+  margin: 5px;
+  border-radius: 8px;
+  text-align: justify;
+  font-size: 25px;
+}
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
